@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <link rel="stylesheet" href="UserLoginStyle.css">
+    <meta charset="UTF-8">
+    <title>UserSignUp Page</title>
+</head>
+<body>
+
+<strong>CREATE YOUR ACCOUNT TO PROCEED</strong>
+
+<h1>Herzlich Wilkommen</h1>
+
+<div id="image">
+    <img src="butterfly.png" alt="Butterfly">
+</div>
+<div class="Credentials">
+    <!--to do validation-->
+    <form action="" style="border:1px solid blue">
+        <hr>
+        <label for="Full Name"><b>Full Name</b></label>
+        <input type="text" placeholder="Enter Full Name" name="name" required><br>
+
+        <label for="Email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required><br>
+
+        <label for="Password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required><br>
+
+        <label for="Password Repeat"><b>Confirm Password</b></label>
+        <input type="password" placeholder="Confirm Password" name="password" required><br>
+
+        <label for="Gender"><b>Gender</b></label>
+        <input type="radio" placeholder="Enter your Gender" name="gender" value="male" checked>Male<br>
+        <input type="radio" placeholder="Enter your Gender" name="gender" value="female">Female<br>
+        <input type="radio" placeholder="Enter your Gender" name="gender" value="others">Others<br>
+
+        <label for="Contact"><b>Contact Number</b></label>
+        <input type="number" placeholder="Enter Number" name="number" required><br>
+
+        <label for="D.O.B"><b>Date of Birth</b></label>
+        <input type="date" placeholder="Enter your d.o.b" name="birthday" required><br>
+
+        <label for="Documents"><b>Docs</b></label>
+        <input type="file" name="upload"><br>
+
+        <label>
+            <input type="checkbox">I have agreed all the terms and regulations<br>
+        </label>
+
+        <label>
+            <input type="checkbox">I am not a robot<br>
+        </label>
+
+        <input type="submit" <!--onclick="alert('Not connected with Backend')"--> value="Submit">
+        <input type="reset"><br>
+    </form>
+</div>
+
+<div id="Favourites">
+    <h1>Favourite Fruits</h1>
+    <ul>
+        <li>Mango</li>
+        <li>Strawberry</li>
+        <li>Custard Apple</li>
+    </ul>
+
+    <h1>Favourite Dish</h1>
+
+    <ol>
+        <li>Biryani</li>
+        <li>Mandi</li>
+        <li>Nahari</li>
+    </ol>
+</div>
+
+<div id="table" style="width:200px; height: 280px">
+    <h2>Credential Data</h2>
+    <table>
+        <caption>Users sign up data</caption>
+        <tr>
+            <th>Fields</th>
+            <th>Person 1</th>
+            <th>Person 2</th>
+        </tr>
+        <tr>
+            <td>Full Name</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>E-mail</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Gender</td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

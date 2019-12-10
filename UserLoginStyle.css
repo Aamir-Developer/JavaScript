@@ -1,0 +1,27 @@
+body{
+    background-image: url(BG.png);
+}
+
+#image{
+    float: right;
+    /*background: black;*/
+    /*scroll-padding-inline: inherit;*/
+    /*margin-top: 100px;*/
+    /*margin-right: 100px;*/
+    /*margin-bottom: 150px;*/
+}
+
+.Credentials{
+    padding: 2%;
+    margin: 2px;
+    /*float: contour;*/
+    font-family: Calibri, sans-serif;
+}
+#table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    /*size: A4;*/
+}
+th, td{
+    border: 1px solid black;
+}
