@@ -41,5 +41,40 @@
     console.log(5+6);
 </script>
 
+<p>
+    Function with parameters
+</p>
+
+<p id="parameter"></p>
+
+<script>
+        function myFuncpara(p1, p2){
+            return p1*p2;
+        }
+        document.getElementById('parameter').innerHTML=myFuncpara(2,5);
+
+</script>
+
+<p id="date"></p>
+<button onclick="document.getElementById('date').innerHTML=Date()">
+    The current time is:
+</button>
+
+<p>
+    Date through function
+</p>
+
+<p id="datemitfunc"></p>
+
+<button onclick="myFunc()">
+    Bitte uhr ?
+</button>
+
+<script>
+    function myFunc() {
+        document.getElementById('datemitfunc').innerHTML=Date();
+    }
+</script>
+
 </body>
 </html>
