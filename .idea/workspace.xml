@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79542cde-ed21-4332-8a37-9e8e24f78cb7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Diffjsmethods.html" beforeDir="false" afterPath="$PROJECT_DIR$/Diffjsmethods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FormValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,11 +29,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Diffjsmethods.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="359">
               <caret line="103" selection-start-line="103" selection-end-line="103" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/FormValidation.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -58,6 +68,7 @@
         <option value="$PROJECT_DIR$/External.js" />
         <option value="$PROJECT_DIR$/UserLogin.html" />
         <option value="$PROJECT_DIR$/Diffjsmethods.html" />
+        <option value="$PROJECT_DIR$/FormValidation.html" />
       </list>
     </option>
   </component>
@@ -114,8 +125,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.Diffjsmethods.html">
+  <component name="RunManager" selected="JavaScript Debug.FormValidation.html">
     <configuration name="Diffjsmethods.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UserSignUp/Diffjsmethods.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="FormValidation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UserSignUp/FormValidation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="UserLogin.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/UserSignUp/UserLogin.html" useBuiltInWebServerPort="true">
@@ -123,6 +137,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.FormValidation.html" />
         <item itemvalue="JavaScript Debug.Diffjsmethods.html" />
         <item itemvalue="JavaScript Debug.UserLogin.html" />
       </list>
@@ -140,18 +155,18 @@
       <updated>1575813366013</updated>
       <workItem from="1575813373090" duration="8888000" />
       <workItem from="1576014556271" duration="1373000" />
-      <workItem from="1576057865392" duration="8396000" />
+      <workItem from="1576057865392" duration="9705000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18657000" />
+    <option name="totallyTimeSpent" value="19966000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24330357" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -213,6 +228,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="359">
           <caret line="103" selection-start-line="103" selection-end-line="103" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FormValidation.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="56" lean-forward="true" selection-start-line="12" selection-start-column="56" selection-end-line="12" selection-end-column="56" />
         </state>
       </provider>
     </entry>
