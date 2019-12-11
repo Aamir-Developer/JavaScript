@@ -14,7 +14,7 @@
 <div id="image">
     <img src="butterfly.png" alt="Butterfly">
 </div>
-<div class="Credentials">
+<div id="Credentials">
     <!--to do validation-->
     <form action="" style="border:1px solid blue">
         <hr>
@@ -52,7 +52,7 @@
             <input type="checkbox">I am not a robot<br>
         </label>
 
-        <input type="submit" <!--onclick="alert('Not connected with Backend')"--> value="Submit">
+        <input type="submit" onclick="myFunction()" value="Submit">
         <input type="reset"><br>
     </form>
 </div>
@@ -110,5 +110,11 @@
         </tr>
     </table>
 </div>
+
+<script>
+    function myFunction() {
+        document.getElementById("Credentials").innerHTML = "Thank you for Registering :)";
+    }
+</script>
 </body>
 </html>
