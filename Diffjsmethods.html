@@ -76,5 +76,35 @@
     }
 </script>
 
+<p>
+    Convert string to array
+</p>
+
+<button onclick="splitStr()">Convert it</button>
+
+<p id="demons"></p>
+
+<script>
+    function splitStr() {
+        let str = "a,b,c,d";
+        let arr = str.split(",");
+        document.getElementById('demons').innerHTML = arr[2];
+    }
+</script>
+
+<p>
+    Create object from JSON to String
+</p>
+
+<p id="demojson"></p>
+
+<script>
+    let x ='{"employees":['+ '' +
+        '{"firstname":"john", "lastname":"smith"},'+'' +
+        '{"firstname":"aamir", "lastname":"mohammed"}]}';
+    obj = JSON.parse(x);
+    document.getElementById('demojson').innerHTML=obj.employees[1].firstname;
+</script>
+
 </body>
 </html>
